@@ -1,8 +1,8 @@
 #!/bin/bash
 set -ev
 
-sdk_version=0.0.3
-sha1_checksum=cec339b322fabacfb7857ce740c64059bb83d46d
+sdk_version=0.0.4
+sha1_checksum=812e68b1dc2b01dafc8a59d03e9c59e895f00aa2
 
 rm -fr Frameworks
 
