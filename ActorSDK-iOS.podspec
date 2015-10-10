@@ -27,7 +27,6 @@ Pod::Spec.new do |s|
   s.dependency 'MBProgressHUD'
   s.dependency 'PSTAlertController'
   s.dependency 'DZNPhotoPickerController'
-  s.dependency 'RMPhoneFormat', :git => 'https://github.com/actorapp/RMPhoneFormat'
   s.dependency 'JVFloatLabeledTextField'
   s.dependency 'CLTokenInputView'
   s.dependency 'SZTextView'
