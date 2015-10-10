@@ -1,4 +1,4 @@
-@version = "0.0.2"
+@version = "0.0.3"
 
 Pod::Spec.new do |s|
   s.name         		= "ActorSDK-iOS"
@@ -16,7 +16,30 @@ Pod::Spec.new do |s|
       Scripts/download.sh
   CMD
 
+  # Core
   s.dependency 'J2ObjC-Framework'
+  s.dependency 'RegexKitLite'
+  s.dependency 'CocoaAsyncSocket'
+  s.dependency 'zipzap'
+
+  # UI
+  s.dependency 'VBFPopFlatButton'
+  s.dependency 'MBProgressHUD'
+  s.dependency 'PSTAlertController'
+  s.dependency 'DZNPhotoPickerController'
+  s.dependency 'RMPhoneFormat', :git => 'https://github.com/actorapp/RMPhoneFormat'
+  s.dependency 'JVFloatLabeledTextField'
+  s.dependency 'CLTokenInputView'
+  s.dependency 'SZTextView'
+  s.dependency 'SlackTextViewController'
+  s.dependency 'NYTPhotoViewer'
+  s.dependency 'PEPhotoCropEditor'
+  s.dependency 'LTNavigationBar'
+  s.dependency 'BlockAlertsAnd-ActionSheets'
+  s.dependency 'RMUniversalAlert'
+  s.dependency 'PSTAlertController'
+  s.dependency 'TTTAttributedLabel'
+  s.dependency 'M13ProgressSuite'
 
   s.preserve_paths = 'Frameworks/ActorSDK.framework'
   s.frameworks = 'ActorSDK'
