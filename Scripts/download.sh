@@ -2,7 +2,7 @@
 set -ev
 
 sdk_version=0.0.8
-sha1_checksum=cec339b322fabacfb7857ce740c64059bb83d46d
+sha1_checksum=65bb3640c915bc066cfd9b80883e52a2a3f2fb6d
 
 rm -fr Frameworks
 
