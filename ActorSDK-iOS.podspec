@@ -1,4 +1,4 @@
-@version = "0.0.8"
+@version = "0.0.9"
 
 Pod::Spec.new do |s|
   s.name         		= "ActorSDK-iOS"
@@ -27,13 +27,11 @@ Pod::Spec.new do |s|
   s.dependency 'MBProgressHUD'
   s.dependency 'PSTAlertController'
   s.dependency 'DZNPhotoPickerController'
-  s.dependency 'JVFloatLabeledTextField'
-  s.dependency 'CLTokenInputView'
   s.dependency 'SZTextView'
   s.dependency 'SlackTextViewController'
   s.dependency 'NYTPhotoViewer'
-  s.dependency 'PEPhotoCropEditor'
-  s.dependency 'LTNavigationBar'
+  s.dependency 'RSKImageCropper'
+  
   s.dependency 'BlockAlertsAnd-ActionSheets'
   s.dependency 'RMUniversalAlert'
   s.dependency 'PSTAlertController'
