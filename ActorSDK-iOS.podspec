@@ -1,4 +1,4 @@
-@version = "0.0.10"
+@version = "0.0.11"
 
 Pod::Spec.new do |s|
   s.name         		= "ActorSDK-iOS"
