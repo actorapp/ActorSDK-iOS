@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         		= "ActorSDK-iOS"
-  s.version      		= "0.0.83"
+  s.version      		= "0.0.89"
   s.summary      		= "Actor SDK for intergration Actor Messaging to your apps"
   s.homepage        = "https://actor.im/"
   s.license         = { :type => 'MIT', :file => 'LICENSE' }
@@ -38,6 +38,5 @@ Pod::Spec.new do |s|
   s.dependency 'M13ProgressSuite'
 
   s.preserve_paths = 'Frameworks/ActorSDK.framework'
-  s.frameworks = 'ActorSDK'
-  s.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/ActorSDK-iOS/Frameworks"' }
+  s.vendored_framework = 'Frameworks/ActorSDK.framework'
 end
