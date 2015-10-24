@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         		= "ActorSDK-iOS"
-  s.version      		= "0.0.92"
+  s.version      		= "0.0.96"
   s.summary      		= "Actor SDK for intergration Actor Messaging to your apps"
   s.homepage        = "https://actor.im/"
   s.license         = { :type => 'MIT', :file => 'LICENSE' }
@@ -18,6 +18,7 @@ Pod::Spec.new do |s|
   s.dependency 'RegexKitLite'
   s.dependency 'CocoaAsyncSocket'
   s.dependency 'zipzap'
+  s.dependency 'J2ObjC-Framework'
 
   # UI
   s.dependency 'VBFPopFlatButton'
