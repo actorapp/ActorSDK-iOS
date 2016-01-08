@@ -26,6 +26,7 @@ Pod::Spec.new do |s|
   s.dependency 'PSTAlertController'
   s.dependency 'DZNPhotoPickerController'
   s.dependency 'SZTextView'
+  s.dependency 'SVProgressHUD'
   s.dependency 'SlackTextViewController'
   s.dependency 'NYTPhotoViewer'
   s.dependency 'RSKImageCropper'
