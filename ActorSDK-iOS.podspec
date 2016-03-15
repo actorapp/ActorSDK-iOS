@@ -40,6 +40,12 @@ Pod::Spec.new do |s|
   s.dependency 'TTTAttributedLabel'
   s.dependency 'M13ProgressSuite'
 
-  s.preserve_paths = 'Frameworks/ActorSDK.framework'
-  s.vendored_frameworks = ['Frameworks/ActorSDK.framework', 'Frameworks/CommonCrypto.framework']
+  s.preserve_paths = 'Frameworks'
+  s.vendored_frameworks = ['Frameworks/ActorSDK.framework']
+  
+  # Make sure we can find the dummy frameworks
+  s.xcconfig = { 
+    "SWIFT_INCLUDE_PATHS" => "$(PROJECT_DIR)/ActorSDK-iOS/Frameworks/",
+    "FRAMEWORK_SEARCH_PATHS" => "$(PROJECT_DIR)/ActorSDK-iOS/Frameworks/"
+  }
 end
