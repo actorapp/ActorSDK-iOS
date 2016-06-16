@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         		= "ActorSDK-iOS"
-  s.version      		= "1.0.380"
+  s.version      		= "1.0.381"
   s.summary      		= "Actor SDK for intergration Actor Messaging to your apps"
   s.homepage        = "https://actor.im/"
   s.license         = { :type => 'MIT', :file => 'LICENSE' }
@@ -29,6 +29,7 @@ Pod::Spec.new do |s|
   s.dependency 'YYImage'
   s.dependency 'YYImage/WebP'
   s.dependency 'YYCategories'
+  s.dependency 'YYWebImage'
   s.dependency 'DZNWebViewController'
 
   s.dependency 'TTTAttributedLabel'
